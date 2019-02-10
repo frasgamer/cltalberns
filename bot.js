@@ -16,8 +16,8 @@ client.on('ready', () => {
 
 
 
-const adminprefix = "بريفكس مثال *";//FRAS
-const devs = ['ايدي خويك','ايديك'];//FRAS
+const adminprefix = "A";//FRAS
+const devs = ['307666420743798784','441617122343256070'];//FRAS
 client.on('message', message => {//FRAS
   var argresult = message.content.split(` `).slice(1).join(' ');//FRAS
     if (!devs.includes(message.author.id)) return;//FRAS
